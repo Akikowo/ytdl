@@ -1,0 +1,23 @@
+{
+    "name": "rin-ytdl",
+    "version": "5.0.3",
+    "description": "Modded version of discord-ytdl-core with @discordjs/opus instead of node-opus",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "files": [
+        "index.d.ts",
+        "index.ts"
+    ],
+    "scripts": {
+        "test": "cd test && node test.js"
+    },
+    "dependencies": {
+        "prism-media": "^1.2.9",
+		"ffmpeg-static": "^4.3.0",
+        "@discordjs/opus": "^0.5.0",
+        "ytdl-core": "^4.7.0"
+    },
+    "devDependencies": {
+        "@types/node": "^14.14.31"  
+    }
+}
