@@ -15,7 +15,7 @@
         "prism-media": "^1.2.9",
 	"ffmpeg-static": "^4.3.0",
         "@discordjs/opus": "^0.5.0",
-        "ytdl-core": "github:Akikowo/node-ytdl-core"
+        "ytdl-core": "^4.8.2"
     },
     "devDependencies": {
         "@types/node": "^14.14.31"  
